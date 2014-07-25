@@ -22,7 +22,7 @@ var userNumber = prompt("Please enter a number:");
  var realNumber = parseInt(userNumber); */
 
 var calcIt = function(number) {
-	for (number = 1; number < (userNumber + 1); number ++){
+	for (number = 1; number <= (userNumber); number ++){
 		if ((number % 3 == 0) && (number % 5 == 0)) {
 			console.log("fizzbuz");
 			$("body").append('fizzbuzz<br>');
