@@ -3,7 +3,7 @@ $( document ).ready(function() {
 var userNumber = prompt("Please enter a number:");
 var realNumber = parseInt(userNumber);
 
-var input = function(userNumber) {
+var input = function(realNumber) {
 	for (number = 1; number < realNumber; number ++){
 		if (realNumber === NaN){
 			alert("Please enter a real number!");
@@ -26,4 +26,6 @@ var input = function(userNumber) {
 		}
 }
 }
+
+input(realNumber);
 });
