@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 var userNumber = prompt("Please enter a number:");
-userNumber();
 
 var input = function(userNumber) {
 	for (number = 1; number < +userNumber; number ++){
