@@ -25,6 +25,5 @@ var input = function(userNumber) {
 			$("body").append(number + "<br>");
 		}
 }
-
-
+}
 });
